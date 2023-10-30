@@ -1,0 +1,1 @@
+export const baseUrl='https://video-player-server-ot8l.onrender.com'

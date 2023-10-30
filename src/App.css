@@ -1,38 +1,161 @@
-.App {
-  text-align: center;
+  @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script:wght@400;700&family=Fuggles&family=Lobster&family=Mrs+Saint+Delafield&family=Orbitron:wght@800&family=Pacifico&family=Podkova:wght@600&family=Satisfy&family=Sofia&family=VT323&display=swap');
+.navImg{
+  height: 50px;
+  width: 100px !important;
+}
+.nav{
+   margin-top: 10px;
+   background-color: rgb(255, 255, 255);
+}
+.navhead{
+  color: black;
+  font-size: 30px !important;
+  margin-top: 5px;
+  
+}
+.span1{
+  color: rgb(0, 131, 154);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* footer */
+.footer{
+  background-color: white;
+  width: 100%;
+  color:rgb(1, 2, 9) ;
+}
+.footerhead{
+  color: rgb(1,2,9);
+}
+i{
+  margin: 10px;
+  text-decoration: none;
+  color: rgb(1,2,9);
+  font-size: 30px;
+}
+i:hover{
+  color: rgb(6, 120, 120);
+}
+.links{
+  text-decoration: none ;
+  color: rgb(1,2,9);
+}
+.links:hover{
+  color: rgb(7, 125, 125);
+}
+input,textarea{
+  width: 100%;
+  border: 2px solid rgb(1,2,9)  !important;
+}
+button{
+  border: 2px solid rgb(1,2,9);
+  background-color: transparent;
+  border-radius: 5px !important;
+  padding: 8px;
+}
+.span2{
+  font-size: 30px;
+  margin: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* landing page */
+.landingBody{
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.div{
+  border: 2px solid white;
+  background-color: transparent;
+  height: 500px;
+  width: 90%;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 10px;
+}
+.landingimg{
+  height: 500px;
+  width: 100%;
+}
+.para{
+  /* margin-top: 150px !important; */
+  font-size: 23px;
+}
+.btn1{
+  border: 2px solid white;
+  color: white;
+  margin: 20px;
+
+}
+
+/* card */
+
+.vCard{
+  /* display: flex; */
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardimg{
+  height: 250px;
+}
+.cbody{
+  background-color: rgba(103, 102, 102, 0.078);
+}
+
+/* Home page */
+.head3{
+  font-family: 'Satisfy', cursive;
+}
+.a2{
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* add */
+
+.btn3{
+   color: white !important;
+   background-color: transparent !important;
+   font-size: 15px !important;
+   border: 1px solid white !important;
+   display: inline;
+   
+}
+.btn3:hover{
+  border: 2px solid rgb(56, 164, 242) !important;
+  color: rgb(56, 164, 242) !important ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mheader,.mfooter,.mbody{
+ background-color:rgb(1,2,9) !important ;
 }
+
+/* category */
+.cat{
+  background-color: transparent !important;
+  font-size: 30px !important;
+  border-bottom: 1px solid white !important;
+}
+.catdiv{
+  border-bottom: 0.001em solid rgb(210, 209, 209) !important;
+}
+.caticon:hover{
+  color: rgb(56, 164, 242) !important ;
+
+}
+.trash:hover{
+  border: 2px solid red !important;
+}
+.cbody{
+  background-color: rgba(174, 166, 166, 0.043) !important; 
+
+}
+.table1{
+  background-color:transparent !important;
+  color: rgb(255, 255, 255);
+  border: 1px solid white;
+  padding: 50px !important;
+}
+/* view */
+
+
